@@ -1,4 +1,4 @@
-# tepla-rs
+# sr5500p
 
 A command-line tool for the KING JIM TEPRA PRO SR5500P (USB `0d8a:0103`) on Linux.
 
