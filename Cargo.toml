@@ -1,0 +1,12 @@
+[package]
+name = "tepla-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+embedded-graphics = { version = "0.8", default-features = false }
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+libc = { version = "0.2.191", default-features = false }
+qrcode = { version = "0.14.1", default-features = false }
